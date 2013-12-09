@@ -1,0 +1,55 @@
+Simulation is the real thing or a virtual process. 
+Simulation to demonstrate the key features of selected physical or abstract system of systems. 
+Simulation of key issues including 
+effective access to information, 
+key features and 
+performance of selected 
+applications approximation to simplify and assumptions, as well as the reproducibility and effectiveness Simulation. 
+The simulation can be considered an external manifestation of the system to reproduce the special Simulation.
+
+----------------------
+This is my draft thinking of simulation method and flow
+
+Our simulation (dynamic simulation)
+
+
+1. input data
+  total demand number of use lift
+  
+  
+
+2. generate random data (arrive time, floor, destination floor)
+  includes:
+  -normal data
+  -traffic data
+  
+  
+  
+3. simulate use these random data and some specific setting
+  for example,
+  -simulation1: 2 lifts, capacity 10 people, these random number
+  -simulation2: 3 lifts, capacity 12 people, these random number
+  
+  our simulate system, lift control, is similar to the realworld's lift running
+  
+  
+  
+4. get the useful data and show to user 
+  data includes:
+  average wait time, busy % , occupancy, wait queue length
+  (this is for user to judgement which setting is better. The setting are lift number, lift capacity ) 
+
+
+  for example:
+  
+                            2lifts, capacity 10       3lifts, capacity 12
+                            
+  average wait time:        20s                         10s
+  busy %:                   80%                         65%
+  occupancy:                9                           7                                        
+  wait queue length:        12                          7
+  
+  
+  
+  The user will get useful information to help them determine the number of lifts and other type of lift.
+  
