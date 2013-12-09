@@ -1,0 +1,55 @@
+The Basic Steps of a Simulation Study
+The application of simulation involves specific steps in order for the simulation study to be successful. Regardless of the type of problem and the objective of the study, the process by which the simulation is performed remains constant. The following briefly describes the basic steps in the simulation process [6, 7]:
+
+
+Problem Definition 
+The initial step involves defining the goals of the study and determing what needs to be solved. The problem is further defined through objective observations of the process to be studied. Care should be taken to determine if simulation is the appropriate tool for the problem under investigation.
+
+Project Planning 
+The tasks for completing the project are broken down into work packages with a responsible party assigned to each package. Milestones are indicated for tracking progress. This schedule is necessary to determine if sufficient time and resources are available for completion.
+
+System Definition 
+This step involves identifying the system components to be modeled and the preformance measures to be analyzed. Often the system is very complex, thus defining the system requires an experienced simulator who can find the appropriate level of detail and flexibility. 
+
+Model Formulation 
+Understanding how the actual system behaves and determining the basic requirements of the model are necessary in developing the right model. Creating a flow chart of how the system operates facilitates the understanding of what variables are involved and how these variables interact.
+
+Input Data Collection & Analysis 
+After formulating the model, the type of data to collect is determined. New data is collected and/or existing data is gathered. Data is fitted to theoretical distributions. For example, the arrival rate of a specific part to the manufacturing plant may follow a normal distribution curve.
+
+Model Translation 
+The model is translated into programming language. Choices range from general purpose languages such as fortran or simulation programs such as Arena.
+
+Verification & Validation 
+Verification is the process of ensuring that the model behaves as intended, usually by debugging or through animation. Verification is necessary but not sufficient for validation, that is a model may be verified but not valid. Validation ensures that no significant difference exists between the model and the real system and that the model reflects reality. Validation can be achieved through statistical analysis. Additionally, face validity may be obtained by having the model reviewed and supported by an expert. 
+
+Experimentation & Analysis
+Experimentation involves developing the alternative model(s), executing the simulation runs, and statistically comparing the alternative(s) system performance with that of the real system.
+
+Documentation & Implementation 
+Documentation consists of the written report and/or presentation. The results and implications of the study are discussed. The best course of action is identified, recommended, and justified. 
+
+Decisions for Simulating
+Completing the required steps of a simulation study establishes the likelihood of the study's success. Although knowing the basic steps in the simulation study is important, it is equally important to realize that not every problem should be solved using simulation. In the past, simulation required the specialized training of programmers and analysts dedicated to very large and complex projects. Now, due to the large number of software available, simulation at times is used inappropriately by individuals lacking the sufficient training and experience. When simulation is applied inappropriately, the study will not produce meaningful results. The failure to achieve the desired goals of the simulation study may induce blaming the simulation approach itself when in fact the cause of the failure lies in the inappropriate application of simulation [8]. 
+
+To recognize if simulation is the correct approach to solving a particular problem, four items should be evaluated before deciding to conduct the study: 
+
+Type of Problem
+Availability of Resources
+Costs
+Availability of Data
+Type of Problem: If a problem can be solved by common sense or analytically, the use of simulation is unnecessary. Additionally, using algorithms and mathematical equations may be faster and less expensive than simulating. Also, if the problem can be solved by performing direct experiments on the system to be evaluated, then conducting direct experiments may be more desirable than simulating. To illustrate, recently the UH Transportation Department conducted field studies on expanding the campus shuttle system. The department used their own personnel and vehicles to perform the experiment during the weekend. In contrast, developing the simulation model for the shuttle system took one student several weeks to complete. However, one factor to consider when performing directing experiments is the degree in which the real system will be disturbed. If a high degree of disruption to the real system will occur, then another approach may be necessary.The real system itself plays another factor in deciding to simulate. If the system is too complex, cannot be defined, and not understandable then simulation will not produce meaningful results. This situation often occurs when human behavior is involved. 
+Availability of Resources: People and time are the determining resources for conducting a simulation study. An experienced analyst is the most important resource since such a person has the ability and experience to determine both the model's appropriate level of detail and how to verify and validate the model. Without a trained simulator, the wrong model may be developed which produces unreliable results. Additionally, the allocation of time should not be so limited so as to force the simulator to take shortcuts in designing the model. The schedule should allow enough time for the implementation of any necessary changes and for verification and validation to take place if the results are to be meaningful. 
+
+Costs: Cost considerations should be given for each step in the simulation process, purchasing simulation software if not already available, and computer resources. Obviously if these costs exceed the potential savings in altering the current system, then simulation should not be pursued.
+
+Availability of Data: The necessary data should be identified and located, and if the data does not exist, then the data should be collectible. If the data does not exist and cannot be collected, then continuing with the simulation study will eventually yield unreliable and useless results. The simulation output cannot be compared to the real system's performance, which is vital for verifying and validating the model.
+
+The basic steps and decisions for a simulation study are incorporated into a flowchart as shown below:
+
+
+Steps and Decisions for Conducting a Simulation Study
+
+
+Once simulation has been identified as the preferred approach to solving a particular problem, the decision to implement the course of action suggested by the simulation study's results does not necessarily signify the end of the study, as indicated in the flowchart above. The model may be maintained to check the system's response to variabilities experienced by the real system. However, the extent to which the model may be maintained largely depends on the model's flexibility and what questions the model was originally designed to address.
+
